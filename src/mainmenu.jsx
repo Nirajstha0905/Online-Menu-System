@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Cuisines from "./nav-items/cuisines.jsx";
-import Salads from "./nav-items/salads.jsx";
-import Burger from "./nav-items/burger.jsx";
-import Pizza from "./nav-items/pizza.jsx";
-import TeaCoffee from "./nav-items/teacoffee.jsx";
-import Beverages from "./nav-items/beverages.jsx";
-import Drink from "./nav-items/drinks.jsx";
-import styles from "./nav-items/navitem.module.css";
+import Cuisines from "./menu_item_category/cuisines.jsx";
+import Salads from "./menu_item_category/salads.jsx";
+import Burger from "./menu_item_category/burger.jsx";
+import Pizza from "./menu_item_category/pizza.jsx";
+import TeaCoffee from "./menu_item_category/teacoffee.jsx";
+import Beverages from "./menu_item_category/beverages.jsx";
+import Drink from "./menu_item_category/drinks.jsx";
+import styles from "./menu_item_category/navitem.module.css";
 function Mainmenu() {
   return (
     <>
